@@ -2,9 +2,10 @@
   "name": "gettingstartedgit",
   "version": "1.0.0",
   "description": "Testing some git features.\r Trying to validate JSON received on the nodejs requests and the req method.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=helloWorld"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/fonsecaprojetos/gitBash#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@google-cloud/functions-framework": "^1.3.2",
+    "express": "^4.17.1",
+    "jsonschema": "^1.2.4"
   }
 }
