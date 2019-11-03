@@ -1,0 +1,23 @@
+{
+  "name": "gettingstartedgit",
+  "version": "1.0.0",
+  "description": "Testing some git features.\r Trying to validate JSON received on the nodejs requests and the req method.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fonsecaprojetos/gitBash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fonsecaprojetos/gitBash/issues"
+  },
+  "homepage": "https://github.com/fonsecaprojetos/gitBash#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
