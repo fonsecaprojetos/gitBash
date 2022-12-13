@@ -20,7 +20,7 @@
   "homepage": "https://github.com/fonsecaprojetos/gitBash#readme",
   "dependencies": {
     "@google-cloud/functions-framework": "^1.3.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jsonschema": "^1.2.4"
   }
 }
